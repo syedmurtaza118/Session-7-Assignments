@@ -1,0 +1,13 @@
+DECLARE start,stop,inc
+PRINT ("Enter start value: "))
+READ start
+PRINT ("Enter stop value: "))
+READ stop
+PRINT ("Enter increment value: "))
+READ inc
+i=start
+#starting loop
+while(i<stop):
+   PRINT (i)
+   i+=inc
+END 

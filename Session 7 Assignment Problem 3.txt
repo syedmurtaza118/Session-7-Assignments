@@ -1,0 +1,15 @@
+Module getAverage(s1,s2):
+   return (s1+s2)/2
+End Module
+DECLARE NAME,S1,S2,CH
+PRINT ("Do you want to start (Y/N): ")
+READ CH
+while(ch=="Y" or ch=="y"):
+#reading name and scores
+   PRINT ("Enter last name: ")
+   READ name
+   PRINT("Enter 2 test scores: ")
+   READ S1,S2
+   avg=getAverage(s1,s2)
+PRINT (name,": ",avg)
+   PRINT "Do you want to continue (Y/N): "
